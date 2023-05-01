@@ -116,3 +116,12 @@ class Api {
 }
 
 export default Api
+
+// Usage
+/*
+await api.getTime(); // get server time - required
+const { totalBalance } = (await api.get(
+	"/main/api/v2/accounting/account2/BTC",
+)) as { totalBalance: number }; // get balance settings
+console.log(`NiceHash total balance: ${totalBalance} BTC`);
+*/
