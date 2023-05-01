@@ -26,14 +26,14 @@ Can be found here: https://docs.nicehash.com/
 
 - Install dependencies
 
-	npm install
+	`npm install`
 	
-- Enter your API key settings into config.js
-- Uncomment example you want to run in index.js
+- Enter your API key settings into `config.js`
+- Uncomment example you want to run in `index.js`
 - Run with
 
-	node index.js
+	`node index.js`
 
-## get api keys
+## Get api keys
 
 ![](https://raw.githubusercontent.com/nicehash/rest-clients-demo/master/generate_key.gif)
