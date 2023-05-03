@@ -1,16 +1,20 @@
 {
-  "name": "example-app-node",
-  "version": "0.0.1",
-  "description": "NiceHash Example App",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "NiceHash",
   "license": "ISC",
   "dependencies": {
     "crypto-js": "^3.1.9-1",
     "esm": "^3.2.25",
     "qs": "^6.7.0"
-  }
+  },
+  "name": "nicehash-api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
 }
